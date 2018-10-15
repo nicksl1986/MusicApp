@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F88DC7E216A625000BE0E8E /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88DC7D216A625000BE0E8E /* SwiftGif.swift */; };
+		1F88DC82216A67D800BE0E8E /* music.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1F88DC81216A67D800BE0E8E /* music.gif */; };
+		1FAE20B321654D3D00363E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE20B221654D3D00363E85 /* AppDelegate.swift */; };
+		1FAE20B521654D3D00363E85 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE20B421654D3D00363E85 /* FirstViewController.swift */; };
+		1FAE20B721654D3D00363E85 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE20B621654D3D00363E85 /* SecondViewController.swift */; };
+		1FAE20BA21654D3D00363E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE20B821654D3D00363E85 /* Main.storyboard */; };
+		1FAE20BC21654D4400363E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE20BB21654D4400363E85 /* Assets.xcassets */; };
+		1FAE20BF21654D4400363E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE20BD21654D4400363E85 /* LaunchScreen.storyboard */; };
+		1FAE20CA21654D4400363E85 /* MyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE20C921654D4400363E85 /* MyProjectTests.swift */; };
+		1FAE20D521654D4500363E85 /* MyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE20D421654D4500363E85 /* MyProjectUITests.swift */; };
+		1FF729CD21667EEF001EE725 /* Cannonball Adderley - Somethin' Else.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729BE21667EEF001EE725 /* Cannonball Adderley - Somethin' Else.mp3 */; };
+		1FF729CE21667EEF001EE725 /* 1-01  Talking Heads - Road To Nowhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729BF21667EEF001EE725 /* 1-01  Talking Heads - Road To Nowhere.mp3 */; };
+		1FF729CF21667EEF001EE725 /* Larry Young - Visions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C021667EEF001EE725 /* Larry Young - Visions.mp3 */; };
+		1FF729D021667EEF001EE725 /* 019  Robert Palmer - Bad Case Of Loving You (Doctor,Doctor).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C121667EEF001EE725 /* 019  Robert Palmer - Bad Case Of Loving You (Doctor,Doctor).mp3 */; };
+		1FF729D121667EEF001EE725 /* 071  Ugly Kid Joe - Everything About You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C221667EEF001EE725 /* 071  Ugly Kid Joe - Everything About You.mp3 */; };
+		1FF729D221667EEF001EE725 /* 3-10  Midge Ure - If I Was.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C321667EEF001EE725 /* 3-10  Midge Ure - If I Was.mp3 */; };
+		1FF729D321667EEF001EE725 /* 017  Toto - Hold the Line.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C421667EEF001EE725 /* 017  Toto - Hold the Line.mp3 */; };
+		1FF729D421667EEF001EE725 /* Art Blakey And The Jazz Messengers - Look At The Birdie (1999 - Remaster).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C521667EEF001EE725 /* Art Blakey And The Jazz Messengers - Look At The Birdie (1999 - Remaster).mp3 */; };
+		1FF729D521667EEF001EE725 /* 3-05  OMD - Enola Gay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C621667EEF001EE725 /* 3-05  OMD - Enola Gay.mp3 */; };
+		1FF729D621667EEF001EE725 /* 007  Boston - More Than A Feeling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C721667EEF001EE725 /* 007  Boston - More Than A Feeling.mp3 */; };
+		1FF729D721667EEF001EE725 /* Gil Evans - Straight No Chaser (2006 - Remaster).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C821667EEF001EE725 /* Gil Evans - Straight No Chaser (2006 - Remaster).mp3 */; };
+		1FF729D821667EEF001EE725 /* 011  Rainbow - since you been gone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729C921667EEF001EE725 /* 011  Rainbow - since you been gone.mp3 */; };
+		1FF729D921667EEF001EE725 /* 3-13  Philip Oakey & Giorgio Moroder - Together In Electric Dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729CA21667EEF001EE725 /* 3-13  Philip Oakey & Giorgio Moroder - Together In Electric Dreams.mp3 */; };
+		1FF729DA21667EEF001EE725 /* 3-06  Ultravox - Dancing With Tears In My Eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729CB21667EEF001EE725 /* 3-06  Ultravox - Dancing With Tears In My Eyes.mp3 */; };
+		1FF729DB21667EEF001EE725 /* Don Ellis Orchestra - Passacaglia And Fugue (Live) (1998 - Remaster).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF729CC21667EEF001EE725 /* Don Ellis Orchestra - Passacaglia And Fugue (Live) (1998 - Remaster).mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAE20C621654D4400363E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAE20A721654D3D00363E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAE20AE21654D3D00363E85;
+			remoteInfo = MyProject;
+		};
+		1FAE20D121654D4500363E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAE20A721654D3D00363E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAE20AE21654D3D00363E85;
+			remoteInfo = MyProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F88DC7D216A625000BE0E8E /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		1F88DC81216A67D800BE0E8E /* music.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = music.gif; sourceTree = "<group>"; };
+		1FAE20AF21654D3D00363E85 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAE20B221654D3D00363E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FAE20B421654D3D00363E85 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1FAE20B621654D3D00363E85 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1FAE20B921654D3D00363E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FAE20BB21654D4400363E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAE20BE21654D4400363E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FAE20C021654D4400363E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAE20C521654D4400363E85 /* MyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAE20C921654D4400363E85 /* MyProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectTests.swift; sourceTree = "<group>"; };
+		1FAE20CB21654D4400363E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAE20D021654D4500363E85 /* MyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAE20D421654D4500363E85 /* MyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectUITests.swift; sourceTree = "<group>"; };
+		1FAE20D621654D4500363E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF729BE21667EEF001EE725 /* Cannonball Adderley - Somethin' Else.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cannonball Adderley - Somethin' Else.mp3"; sourceTree = "<group>"; };
+		1FF729BF21667EEF001EE725 /* 1-01  Talking Heads - Road To Nowhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-01  Talking Heads - Road To Nowhere.mp3"; sourceTree = "<group>"; };
+		1FF729C021667EEF001EE725 /* Larry Young - Visions.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Larry Young - Visions.mp3"; sourceTree = "<group>"; };
+		1FF729C121667EEF001EE725 /* 019  Robert Palmer - Bad Case Of Loving You (Doctor,Doctor).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "019  Robert Palmer - Bad Case Of Loving You (Doctor,Doctor).mp3"; sourceTree = "<group>"; };
+		1FF729C221667EEF001EE725 /* 071  Ugly Kid Joe - Everything About You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "071  Ugly Kid Joe - Everything About You.mp3"; sourceTree = "<group>"; };
+		1FF729C321667EEF001EE725 /* 3-10  Midge Ure - If I Was.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3-10  Midge Ure - If I Was.mp3"; sourceTree = "<group>"; };
+		1FF729C421667EEF001EE725 /* 017  Toto - Hold the Line.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "017  Toto - Hold the Line.mp3"; sourceTree = "<group>"; };
+		1FF729C521667EEF001EE725 /* Art Blakey And The Jazz Messengers - Look At The Birdie (1999 - Remaster).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Art Blakey And The Jazz Messengers - Look At The Birdie (1999 - Remaster).mp3"; sourceTree = "<group>"; };
+		1FF729C621667EEF001EE725 /* 3-05  OMD - Enola Gay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3-05  OMD - Enola Gay.mp3"; sourceTree = "<group>"; };
+		1FF729C721667EEF001EE725 /* 007  Boston - More Than A Feeling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "007  Boston - More Than A Feeling.mp3"; sourceTree = "<group>"; };
+		1FF729C821667EEF001EE725 /* Gil Evans - Straight No Chaser (2006 - Remaster).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gil Evans - Straight No Chaser (2006 - Remaster).mp3"; sourceTree = "<group>"; };
+		1FF729C921667EEF001EE725 /* 011  Rainbow - since you been gone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "011  Rainbow - since you been gone.mp3"; sourceTree = "<group>"; };
+		1FF729CA21667EEF001EE725 /* 3-13  Philip Oakey & Giorgio Moroder - Together In Electric Dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3-13  Philip Oakey & Giorgio Moroder - Together In Electric Dreams.mp3"; sourceTree = "<group>"; };
+		1FF729CB21667EEF001EE725 /* 3-06  Ultravox - Dancing With Tears In My Eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3-06  Ultravox - Dancing With Tears In My Eyes.mp3"; sourceTree = "<group>"; };
+		1FF729CC21667EEF001EE725 /* Don Ellis Orchestra - Passacaglia And Fugue (Live) (1998 - Remaster).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don Ellis Orchestra - Passacaglia And Fugue (Live) (1998 - Remaster).mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAE20AC21654D3D00363E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAE20C221654D4400363E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAE20CD21654D4500363E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAE20A621654D3D00363E85 = {
+			isa = PBXGroup;
+			children = (
+				1FAE20B121654D3D00363E85 /* MyProject */,
+				1FAE20C821654D4400363E85 /* MyProjectTests */,
+				1FAE20D321654D4500363E85 /* MyProjectUITests */,
+				1FAE20B021654D3D00363E85 /* Products */,
+				1FF729BD21667EEF001EE725 /* Songs */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAE20B021654D3D00363E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAE20AF21654D3D00363E85 /* MyProject.app */,
+				1FAE20C521654D4400363E85 /* MyProjectTests.xctest */,
+				1FAE20D021654D4500363E85 /* MyProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAE20B121654D3D00363E85 /* MyProject */ = {
+			isa = PBXGroup;
+			children = (
+				1FAE20B221654D3D00363E85 /* AppDelegate.swift */,
+				1FAE20B421654D3D00363E85 /* FirstViewController.swift */,
+				1FAE20B621654D3D00363E85 /* SecondViewController.swift */,
+				1FAE20B821654D3D00363E85 /* Main.storyboard */,
+				1FAE20BB21654D4400363E85 /* Assets.xcassets */,
+				1FAE20BD21654D4400363E85 /* LaunchScreen.storyboard */,
+				1FAE20C021654D4400363E85 /* Info.plist */,
+				1F88DC7D216A625000BE0E8E /* SwiftGif.swift */,
+				1F88DC81216A67D800BE0E8E /* music.gif */,
+			);
+			path = MyProject;
+			sourceTree = "<group>";
+		};
+		1FAE20C821654D4400363E85 /* MyProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAE20C921654D4400363E85 /* MyProjectTests.swift */,
+				1FAE20CB21654D4400363E85 /* Info.plist */,
+			);
+			path = MyProjectTests;
+			sourceTree = "<group>";
+		};
+		1FAE20D321654D4500363E85 /* MyProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAE20D421654D4500363E85 /* MyProjectUITests.swift */,
+				1FAE20D621654D4500363E85 /* Info.plist */,
+			);
+			path = MyProjectUITests;
+			sourceTree = "<group>";
+		};
+		1FF729BD21667EEF001EE725 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				1FF729BE21667EEF001EE725 /* Cannonball Adderley - Somethin' Else.mp3 */,
+				1FF729BF21667EEF001EE725 /* 1-01  Talking Heads - Road To Nowhere.mp3 */,
+				1FF729C021667EEF001EE725 /* Larry Young - Visions.mp3 */,
+				1FF729C121667EEF001EE725 /* 019  Robert Palmer - Bad Case Of Loving You (Doctor,Doctor).mp3 */,
+				1FF729C221667EEF001EE725 /* 071  Ugly Kid Joe - Everything About You.mp3 */,
+				1FF729C321667EEF001EE725 /* 3-10  Midge Ure - If I Was.mp3 */,
+				1FF729C421667EEF001EE725 /* 017  Toto - Hold the Line.mp3 */,
+				1FF729C521667EEF001EE725 /* Art Blakey And The Jazz Messengers - Look At The Birdie (1999 - Remaster).mp3 */,
+				1FF729C621667EEF001EE725 /* 3-05  OMD - Enola Gay.mp3 */,
+				1FF729C721667EEF001EE725 /* 007  Boston - More Than A Feeling.mp3 */,
+				1FF729C821667EEF001EE725 /* Gil Evans - Straight No Chaser (2006 - Remaster).mp3 */,
+				1FF729C921667EEF001EE725 /* 011  Rainbow - since you been gone.mp3 */,
+				1FF729CA21667EEF001EE725 /* 3-13  Philip Oakey & Giorgio Moroder - Together In Electric Dreams.mp3 */,
+				1FF729CB21667EEF001EE725 /* 3-06  Ultravox - Dancing With Tears In My Eyes.mp3 */,
+				1FF729CC21667EEF001EE725 /* Don Ellis Orchestra - Passacaglia And Fugue (Live) (1998 - Remaster).mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAE20AE21654D3D00363E85 /* MyProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAE20D921654D4500363E85 /* Build configuration list for PBXNativeTarget "MyProject" */;
+			buildPhases = (
+				1FAE20AB21654D3D00363E85 /* Sources */,
+				1FAE20AC21654D3D00363E85 /* Frameworks */,
+				1FAE20AD21654D3D00363E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyProject;
+			productName = MyProject;
+			productReference = 1FAE20AF21654D3D00363E85 /* MyProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAE20C421654D4400363E85 /* MyProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAE20DC21654D4500363E85 /* Build configuration list for PBXNativeTarget "MyProjectTests" */;
+			buildPhases = (
+				1FAE20C121654D4400363E85 /* Sources */,
+				1FAE20C221654D4400363E85 /* Frameworks */,
+				1FAE20C321654D4400363E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAE20C721654D4400363E85 /* PBXTargetDependency */,
+			);
+			name = MyProjectTests;
+			productName = MyProjectTests;
+			productReference = 1FAE20C521654D4400363E85 /* MyProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FAE20CF21654D4500363E85 /* MyProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAE20DF21654D4500363E85 /* Build configuration list for PBXNativeTarget "MyProjectUITests" */;
+			buildPhases = (
+				1FAE20CC21654D4500363E85 /* Sources */,
+				1FAE20CD21654D4500363E85 /* Frameworks */,
+				1FAE20CE21654D4500363E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAE20D221654D4500363E85 /* PBXTargetDependency */,
+			);
+			name = MyProjectUITests;
+			productName = MyProjectUITests;
+			productReference = 1FAE20D021654D4500363E85 /* MyProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAE20A721654D3D00363E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Nick Slobodsky";
+				TargetAttributes = {
+					1FAE20AE21654D3D00363E85 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1FAE20C421654D4400363E85 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1FAE20AE21654D3D00363E85;
+					};
+					1FAE20CF21654D4500363E85 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1FAE20AE21654D3D00363E85;
+					};
+				};
+			};
+			buildConfigurationList = 1FAE20AA21654D3D00363E85 /* Build configuration list for PBXProject "MyProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAE20A621654D3D00363E85;
+			productRefGroup = 1FAE20B021654D3D00363E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAE20AE21654D3D00363E85 /* MyProject */,
+				1FAE20C421654D4400363E85 /* MyProjectTests */,
+				1FAE20CF21654D4500363E85 /* MyProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAE20AD21654D3D00363E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF729CD21667EEF001EE725 /* Cannonball Adderley - Somethin' Else.mp3 in Resources */,
+				1FF729DB21667EEF001EE725 /* Don Ellis Orchestra - Passacaglia And Fugue (Live) (1998 - Remaster).mp3 in Resources */,
+				1FF729D521667EEF001EE725 /* 3-05  OMD - Enola Gay.mp3 in Resources */,
+				1F88DC82216A67D800BE0E8E /* music.gif in Resources */,
+				1FF729D921667EEF001EE725 /* 3-13  Philip Oakey & Giorgio Moroder - Together In Electric Dreams.mp3 in Resources */,
+				1FF729D821667EEF001EE725 /* 011  Rainbow - since you been gone.mp3 in Resources */,
+				1FAE20BF21654D4400363E85 /* LaunchScreen.storyboard in Resources */,
+				1FF729D321667EEF001EE725 /* 017  Toto - Hold the Line.mp3 in Resources */,
+				1FF729D721667EEF001EE725 /* Gil Evans - Straight No Chaser (2006 - Remaster).mp3 in Resources */,
+				1FAE20BC21654D4400363E85 /* Assets.xcassets in Resources */,
+				1FF729D121667EEF001EE725 /* 071  Ugly Kid Joe - Everything About You.mp3 in Resources */,
+				1FF729D221667EEF001EE725 /* 3-10  Midge Ure - If I Was.mp3 in Resources */,
+				1FF729DA21667EEF001EE725 /* 3-06  Ultravox - Dancing With Tears In My Eyes.mp3 in Resources */,
+				1FF729D621667EEF001EE725 /* 007  Boston - More Than A Feeling.mp3 in Resources */,
+				1FF729CF21667EEF001EE725 /* Larry Young - Visions.mp3 in Resources */,
+				1FAE20BA21654D3D00363E85 /* Main.storyboard in Resources */,
+				1FF729D421667EEF001EE725 /* Art Blakey And The Jazz Messengers - Look At The Birdie (1999 - Remaster).mp3 in Resources */,
+				1FF729CE21667EEF001EE725 /* 1-01  Talking Heads - Road To Nowhere.mp3 in Resources */,
+				1FF729D021667EEF001EE725 /* 019  Robert Palmer - Bad Case Of Loving You (Doctor,Doctor).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAE20C321654D4400363E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAE20CE21654D4500363E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAE20AB21654D3D00363E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88DC7E216A625000BE0E8E /* SwiftGif.swift in Sources */,
+				1FAE20B721654D3D00363E85 /* SecondViewController.swift in Sources */,
+				1FAE20B321654D3D00363E85 /* AppDelegate.swift in Sources */,
+				1FAE20B521654D3D00363E85 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAE20C121654D4400363E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAE20CA21654D4400363E85 /* MyProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAE20CC21654D4500363E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAE20D521654D4500363E85 /* MyProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAE20C721654D4400363E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAE20AE21654D3D00363E85 /* MyProject */;
+			targetProxy = 1FAE20C621654D4400363E85 /* PBXContainerItemProxy */;
+		};
+		1FAE20D221654D4500363E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAE20AE21654D3D00363E85 /* MyProject */;
+			targetProxy = 1FAE20D121654D4500363E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FAE20B821654D3D00363E85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAE20B921654D3D00363E85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FAE20BD21654D4400363E85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAE20BE21654D4400363E85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FAE20D721654D4500363E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FAE20D821654D4500363E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAE20DA21654D4500363E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ37FF796R;
+				INFOPLIST_FILE = MyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nick.slobodsky.MyProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FAE20DB21654D4500363E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ37FF796R;
+				INFOPLIST_FILE = MyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nick.slobodsky.MyProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FAE20DD21654D4500363E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ37FF796R;
+				INFOPLIST_FILE = MyProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nick.slobodsky.MyProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
+			};
+			name = Debug;
+		};
+		1FAE20DE21654D4500363E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ37FF796R;
+				INFOPLIST_FILE = MyProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nick.slobodsky.MyProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
+			};
+			name = Release;
+		};
+		1FAE20E021654D4500363E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ37FF796R;
+				INFOPLIST_FILE = MyProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nick.slobodsky.MyProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyProject;
+			};
+			name = Debug;
+		};
+		1FAE20E121654D4500363E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ37FF796R;
+				INFOPLIST_FILE = MyProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nick.slobodsky.MyProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAE20AA21654D3D00363E85 /* Build configuration list for PBXProject "MyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAE20D721654D4500363E85 /* Debug */,
+				1FAE20D821654D4500363E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAE20D921654D4500363E85 /* Build configuration list for PBXNativeTarget "MyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAE20DA21654D4500363E85 /* Debug */,
+				1FAE20DB21654D4500363E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAE20DC21654D4500363E85 /* Build configuration list for PBXNativeTarget "MyProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAE20DD21654D4500363E85 /* Debug */,
+				1FAE20DE21654D4500363E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAE20DF21654D4500363E85 /* Build configuration list for PBXNativeTarget "MyProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAE20E021654D4500363E85 /* Debug */,
+				1FAE20E121654D4500363E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAE20A721654D3D00363E85 /* Project object */;
+}
